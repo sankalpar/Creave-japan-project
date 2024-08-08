@@ -13,6 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+/*
+|--------------------------------------------------------------------------
+| ViewController
+|--------------------------------------------------------------------------
+*/
+
+/*----------------------------  Dashboard  -------------------------------*/
+Route::get('/'                                                                  , 'App\Http\Controllers\ViewController@dashboard')->name('dashboard');
