@@ -13,21 +13,21 @@ return [
 
 'fonts-googleapis-css'              =>"https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap",
 
-'bootstrap.min'                 =>"/assets/theam-default/css/bootstrap.min.css",
+'bootstrap-min'                 =>"/assets/theam-default/css/bootstrap.min.css",
 
 'nice-select'                   =>"/assets/theam-default/css/nice-select.css",
 
-'font-awesome.min'              =>"/assets/theam-default/css/font-awesome.min.css",
+'font-awesome-min'              =>"/assets/theam-default/css/font-awesome.min.css",
 
 'icofont'                       =>"/assets/theam-default/css/icofont.css",
 
-'slicknav.min'                  =>"/assets/theam-default/css/slicknav.min.css",
+'slicknav-min'                  =>"/assets/theam-default/css/slicknav.min.css",
 
 'owl-carousel'                  =>"/assets/theam-default/css/owl-carousel.css",
 
 'datepicker'                    =>"/assets/theam-default/css/datepicker.css",
 
-'animate.min'                   =>"/assets/theam-default/css/animate.min.css",
+'animate-min'                   =>"/assets/theam-default/css/animate.min.css",
 
 'magnific-popup'                =>"/assets/theam-default/css/magnific-popup.css",
 
@@ -70,13 +70,13 @@ return [
 
 'owl-carousel-js'                   =>"/assets/theam-default/js/owl-carousel.js",
 
-'jquery-counterup-min-jss'          =>"/assets/theam-default/js/jquery.counterup.min.js",
+'jquery-counterup-min-js'          =>"/assets/theam-default/js/jquery.counterup.min.js",
 
 'steller-js'                        =>"/assets/theam-default/js/steller.js",
 
 'wow-min-js'                        =>"/assets/theam-default/js/wow.min.js",
 
-'jquery-jquery-magnific-popup-min-js'  =>"/assets/theam-default/js/jquery.magnific-popup.min.js",
+'jquery-magnific-popup-min-js'  =>"/assets/theam-default/js/jquery.magnific-popup.min.js",
 
 'cloudflare'                        =>"http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js",
 
