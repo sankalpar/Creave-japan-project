@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\Admin\ItemController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +19,17 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
+/*----------------------------  Admin Dashboard  -------------------------------*/
+
+Route::get('/admin-login', function () {
+    return view('admin.adminLogin');
+});
+
+
+Route::post('/admin/login', [AuthController::class, 'AdminLogin']);
+Route::get('/admin/logout', [AuthController::class, 'adminlogout']);
+
+Route::get('/admin/items', [ItemController::class, 'index']);
 /*
 |--------------------------------------------------------------------------
 | ViewController
